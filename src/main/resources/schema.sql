@@ -19,3 +19,6 @@ INSERT INTO catering_job (id, customer_name, phone_number, email, no_of_guests, 
 
 INSERT INTO catering_job (id, customer_name, phone_number, email, no_of_guests, menu, status) VALUES
   (2, 'Rudy John', '234567891', 'rudy@mail.com', 35, '{"chicken parmesan":"fresh pasta with fried chicken thighs, marinara sauce, and parmesan cheese"}' FORMAT JSON, 'CANCELED');
+
+INSERT INTO catering_job (id, customer_name, phone_number, email, no_of_guests, menu, status) VALUES
+    (3, 'Alex Exler', '23455555', 'exler@mail.com', 5, '{"shrimp parrelliada":"fresh pasta with fried shrims, marinara sauce, and parmesan cheese"}' FORMAT JSON, 'IN_PROGRESS');
